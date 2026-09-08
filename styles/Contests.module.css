@@ -1,0 +1,45 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.main h1 {
+  color: #667eea;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.contestList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.contestCard {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contestCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contestCard h2 {
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.contestCard p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.contestCard button {
+  width: 100%;
+  margin-top: 1rem;
+}

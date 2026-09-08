@@ -1,0 +1,17 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.main h1 {
+  color: #667eea;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.main p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
